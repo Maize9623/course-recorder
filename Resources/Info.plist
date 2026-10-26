@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>zh_CN</string>
+	<key>CFBundleDisplayName</key>
+	<string>课程录制工具</string>
+	<key>CFBundleExecutable</key>
+	<string>CourseRecorder</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.gene.course-recorder</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>课程录制工具</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.4.2</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.video</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>用于调用 Keynote 把 PPT / Keynote 文件转换成幻灯片。</string>
+	<key>NSCameraReactionEffectGesturesEnabledDefault</key>
+	<false/>
+	<key>NSCameraUsageDescription</key>
+	<string>用于录制课程中的讲师出镜画面。</string>
+	<key>NSCameraUseContinuityCameraDeviceType</key>
+	<true/>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>个人 AI 协作系统 · 课程录制工具</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>用于录制课程讲解的声音。</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>仅在这台 Mac 上识别口播文字，用于 AI 自动配镜头和字幕；不会上传口播音视频。</string>
+	<key>NSSupportsAutomaticGraphicsSwitching</key>
+	<true/>
+</dict>
+</plist>

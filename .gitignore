@@ -1,0 +1,30 @@
+.build/
+dist/
+.selftest/
+.ui/
+.preview/
+.DS_Store
+*.pptx
+
+# Generated course media and post-production caches
+.course-post/
+output/
+.course-ppt-build/
+
+# Personal recordings and generated media (background images remain eligible for Git)
+*.[mM][pP]4
+*.[mM][oO][vV]
+*.[mM]4[vV]
+*.[mM][kK][vV]
+*.markers.txt
+*.markers.srt
+
+# Private handover, local publication verification and machine-specific state
+/HANDOVER.local.md
+/.publish/
+/settings.json
+/.env
+/.env.*
+!/.env.example
+/.codex/
+/auth.json
