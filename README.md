@@ -133,7 +133,7 @@
 
 ### 从源码构建与直接使用
 
-项目托管在 [Maize9623/course-recorder](https://github.com/Maize9623/course-recorder)，当前为 Maize9623 账号下的私有仓库。请使用有访问权限的 GitHub 账号克隆或下载。
+可在 GitHub 上查看项目，也可以用下面的命令克隆。[Maize9623/course-recorder](https://github.com/Maize9623/course-recorder)
 
 ```bash
 git clone https://github.com/Maize9623/course-recorder.git
@@ -178,7 +178,7 @@ open "dist/课程录制工具.app"
 | CourseRecorder-1.4.2-macos-arm64.zip | Apple Silicon 应用包，附 MIT 许可证、使用说明和可选背景图；解压后将“课程录制工具.app”移入“应用程序” |
 | SHA256SUMS | 校验发布文件是否完整，可用 shasum -a 256 核对 |
 
-这些文件作为 [v1.4.2 发布附件](https://github.com/Maize9623/course-recorder/releases/tag/v1.4.2) 保存，不提交到源码仓库；下载需登录有本仓库访问权限的 GitHub 账号，附件沿用私有仓库的访问权限。当前应用包采用 ad-hoc 签名，未经过 Apple 公证，首次打开可能需要在 macOS“隐私与安全性”中确认。Intel Mac 请从源码自行构建，当前没有经过验收的 Intel 应用包。
+源码包、应用包和校验文件可从 [v1.4.2 发布页面](https://github.com/Maize9623/course-recorder/releases/tag/v1.4.2) 下载。当前应用包采用 ad-hoc 签名，未经过 Apple 公证，首次打开可能需要在 macOS“隐私与安全性”中确认。Intel Mac 请从源码自行构建，当前没有经过验收的 Intel 应用包。
 
 ### 可选依赖
 
